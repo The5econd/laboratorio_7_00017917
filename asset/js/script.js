@@ -13,8 +13,8 @@ window.addEventListener("load",()=>{
     var containers = document.querySelectorAll("div.c2");
     containers.forEach(element => {
         element.style.background =  "#009999";
+        element.innerHTML =  "<input type='text' placeholder='escriba su texto'>";
     });
-    containers.innerHTML =  "<input type='text' placeholder='escriba su texto'>";
 
 
     boton = document.getElementById("btn-click");
